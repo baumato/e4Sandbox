@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="org.tobbaumann.e4.preferencesTest"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/org.tobbaumann.e4.preferencesTest/css/default.css">
+         </property>
+         <property
+               name="PreferencesTest"
+               value="org.tobbaumann.e4.preferencesTest">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+         <property
+               name="appName"
+               value="org.tobbaumann.e4.preferencesTest">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_X2hh8LDiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_X2hh8bDiEeKE5Orpyhzryg" label="org.tobbaumann.e4.preferencesTest" width="500" height="400">
+    <children xsi:type="basic:Part" xmi:id="_X2iJFrDiEeKE5Orpyhzryg" contributionURI="bundleclass://org.tobbaumann.e4.preferencesTest/org.tobbaumann.e4.preferencestest.parts.SamplePart" label="Sample Part"/>
+    <mainMenu xmi:id="_X2iJC7DiEeKE5Orpyhzryg" elementId="menu:org.eclipse.ui.main.menu"/>
+  </children>
+  <addons xmi:id="_X2hh8rDiEeKE5Orpyhzryg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_X2hh87DiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_X2hh9LDiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_X2hh9bDiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_X2hh9rDiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_X2hh97DiEeKE5Orpyhzryg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
